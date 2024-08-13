@@ -3,8 +3,9 @@
 install flask via instuctions
 https://flask.palletsprojects.com/en/3.0.x/installation/
 
-run 
-pip install -r requirements.txt    
+run:
+pip install -r requirements.txt 
+pip install --upgrade tensorflow
 
-then to run web
+then to run web:
 flask --app app run                 
