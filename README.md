@@ -5,6 +5,7 @@ https://flask.palletsprojects.com/en/3.0.x/installation/
 
 run:
 pip install -r requirements.txt
+
 then:
 pip install --upgrade tensorflow
 
