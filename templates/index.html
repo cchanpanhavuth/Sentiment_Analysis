@@ -16,6 +16,7 @@
         {% if prediction %}
             <div class="result">
                 <h2>Sentiment: {{ prediction }}</h2>
+                <p>Confidence: {{ confidence_percentage }}%</p>
             </div>
         {% endif %}
     </div>
